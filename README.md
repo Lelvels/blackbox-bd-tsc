@@ -122,17 +122,19 @@ sh scripts/continuous_bd.sh
 
 # ⚙️ Hyperparameters and setups
 
-- A summary of the most critical hyperparameters is provided below:
+- The summary of blackbox attacks hyperparamters are presented here: [Blackbox backdoor attacks hyperparameter settings](https://docs.google.com/spreadsheets/d/1rab4JrnUre5lL9s6hdRscOIStbhpGMOjvgPmyhnJCPs/edit?usp=sharing)
+- Graybox and Whitebox attacks use similar hyperparameters settings.
+- A summary of the most important hyperparameters is provided below:
 
-| **Parameter**                        |   **iAWE**   | **MotionSense** |
-| :----------------------------------- | :----------: | :-------------: |
-| Query Budget ($\beta_{init}$)        |     2000     |       400       |
-| Injection Budget ($\beta_{inject}$)  |     4000     |       800       |
-| Maximum Target Model Update Times    |      50      |       50        |
-| Attacker's step ($\kappa$)           |      2       |        2        |
-| Maximum Amplitude Ratio ($\epsilon$) | `[0.3, 0.5]` |  `[0.3, 0.5]`   |
-| Generator Training epoch             |      40      |       50        |
-| Generator Learning rate              |   1.00e-03   |    1.00e-03     |
-| TSC Update Training Epochs           |      10      |       100       |
-| TSC Update Learning rate             |   1.00e-03   |    1.00e-03     |
-| Generator data ratio                 |     0.3      |       0.3       |
+| **Parameter**                    | **iAWE** | **MotionSense** |
+| :------------------------------------- | :------------: | :-------------------: |
+| Query Budget ($\beta_{init}$)        |      2000      |          400          |
+| Injection Budget ($\beta_{inject}$)  |      4000      |          800          |
+| Maximum Target Model Update Times      |       50       |          50          |
+| Attacker's step ($\kappa$)           |       2       |           2           |
+| Maximum Amplitude Ratio ($\epsilon$) | `[0.3, 0.5]` |    `[0.3, 0.5]`    |
+| Generator Training epoch               |       40       |          50          |
+| Generator Learning rate                |    1.00e-03    |       1.00e-03       |
+| TSC Update Training Epochs             |       10       |          100          |
+| TSC Update Learning rate               |    1.00e-03    |       1.00e-03       |
+| Generator data ratio                   |      0.3      |          0.3          |
