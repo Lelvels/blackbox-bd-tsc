@@ -1,6 +1,6 @@
 # [IJCNN 2026] Black-box Backdoor Attack on Continual Semi-Supervised Learning time-series-based IoT System
 
-<pre class="vditor-reset" placeholder="" contenteditable="true" spellcheck="false"><p data-block="0"><img src="https://file+.vscode-resource.vscode-cdn.net/Users/congnguyen/Code/thesis-code/blackbox_bd_tsc/images/Methodology.png" alt="Alt text"/></p></pre>
+<pre class="vditor-reset" placeholder="" contenteditable="true" spellcheck="false"><p data-block="0"><img src="https://research.nii.ac.jp/~iechizen/official/img/template/elab-logo.png" alt="Alt text"/></p></pre>
 
 This work have been accepted to IJCNN 2026, we will update the doi later.
 
