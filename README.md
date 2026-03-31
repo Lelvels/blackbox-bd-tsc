@@ -2,7 +2,7 @@
 
 <pre class="vditor-reset" placeholder="" contenteditable="true" spellcheck="false"><p data-block="0"><img src="https://research.nii.ac.jp/~iechizen/official/img/template/elab-logo.png" alt="Alt text"/></p></pre>
 
-This work have been accepted to IJCNN 2026, we will update the doi later.
+This work have been accepted to IJCNN 2026. This works is conducted during my internship at Echizen Lab, National Institute of Informatics, Tokyo, Japan.
 
 This repository contains the implementation for the paper: "**Black-box Backdoor Attack on Continual Semi-Supervised Learning time-series-based IoT System**".
 
@@ -158,4 +158,3 @@ sh scripts/continuous_bd.sh
 - **Thanh Cong Nguyen**: thanhcong1.work@gmail.com
 - **Dr. Hanrui Wang** (Corresponding author): hanrui_wang@nii.ac.jp
 - **Prof. Isao Echizen** (Corresponding author): echizen@nii.ac.jp
-- This works is conducted under the NII International Internship Program, in National Institute of Informatics, Tokyo, Japan.
