@@ -2,7 +2,7 @@
 
 <pre class="vditor-reset" placeholder="" contenteditable="true" spellcheck="false"><p data-block="0"><img src="https://research.nii.ac.jp/~iechizen/official/img/template/elab-logo.png" alt="Alt text"/></p></pre>
 
-This work have been accepted to IJCNN 2026. This works is conducted during my internship at Echizen Lab, National Institute of Informatics, Tokyo, Japan.
+This work has been accepted to IJCNN 2026 ([DOI: 10.1109/IJCNN69854.2026.11730062](https://doi.org/10.1109/IJCNN69854.2026.11730062)). This works is conducted during my internship at Echizen Lab, National Institute of Informatics, Tokyo, Japan.
 
 This repository contains the implementation for the paper: "**Black-box Backdoor Attack on Continual Semi-Supervised Learning time-series-based IoT System**".
 
@@ -152,6 +152,22 @@ sh scripts/continuous_bd.sh
 | TSC Update Training Epochs             |       10       |          100          |
 | TSC Update Learning rate               |    1.00e-03    |       1.00e-03       |
 | Generator data ratio                   |      0.3      |          0.3          |
+
+# 📝 Citation
+
+If you find this work useful, please cite:
+
+```bibtex
+@inproceedings{nguyen2026blackbox,
+  author    = {Nguyen, Thanh Cong and Wang, Hanrui and Echizen, Isao},
+  title     = {Black-box Backdoor Attack on Continual Semi-Supervised Learning for Time-series Internet-of-Things Systems},
+  booktitle = {2026 International Joint Conference on Neural Networks (IJCNN)},
+  publisher = {IEEE},
+  year      = {2026},
+  pages     = {1--8},
+  doi       = {10.1109/IJCNN69854.2026.11730062}
+}
+```
 
 # Contacts
 
